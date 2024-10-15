@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitezin</title>
+</head>
+<body>
+    <h1>Você gosta de Morango?</h1>
+    Tu curti Morango? <input type="text" name="pergunta1" id="pergunta1">
+    <input type="button" id="btn" value="Verificar" onclick="verificar()">
+    <div id="resposta1"></div>
+
+    <script>
+        function verificar() {
+            let pergunta = document.getElementById('pergunta1').value
+            let = resposta1 = document.getElementById('resposta1')
+            let botão = document.getElementById('btn')
+
+            if (pergunta === "Sim") {
+                document.querySelector('body').style.background = "red"
+                document.getElementById('btn').value = "Moranguin!"
+            } else {
+                document.querySelector('body').style.background = "black"
+                document.querySelector('body').style.color = "white"
+                document.getElementById('btn').value = "Monstro!"
+                document.querySelector('body').innerHTML += 
+                "<p>MONSTRO!</p>"
+            }
+
+        }
+
+
+
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>
