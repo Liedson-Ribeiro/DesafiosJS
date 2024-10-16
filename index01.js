@@ -1,5 +1,6 @@
-let agora = new Date()
-let hora = 2 // let hora = agora.getHours()
+// const agora = new Date()
+// let hora = agora.getHours()
+let hora = 2 
 console.log(`Agora são exatamente ${hora} horas!`)
 
 if (hora >= 6 && hora < 12) {
