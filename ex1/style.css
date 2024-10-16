@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgba(25, 25, 211, 0.74);
+    color: rgba(255, 255, 255, 0.89);
+}
+header > h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    translate: -50% -50%;
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.conteudo1{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+.conteudo2 > img{
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    translate: -50% -50%;
+    height: 280px;
+    border-radius: 150px;
+}
+
+footer {
+    position: absolute;
+    left: 50%;
+    top: 67%;
+    translate: -50% -50%;
+}
