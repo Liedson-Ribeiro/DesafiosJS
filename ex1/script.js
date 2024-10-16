@@ -3,7 +3,7 @@ let hora = agora.getHours()
 let text1 = document.querySelector("#conteudo1 > p")
 let body = document.getElementById("body")
 
-hora = 6
+hora = 21
 
 text1.innerHTML = `O horario atual é: <strong>${hora} horas</strong>`
 
