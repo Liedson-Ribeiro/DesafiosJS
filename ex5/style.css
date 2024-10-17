@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(33, 33, 228, 0.815);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+
+#seltab {
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
